@@ -27,6 +27,7 @@ def stt(url,conf,ff,ft,datat,FlightData,db):
 				db.session.rollback() 
 	
 	print(datetime.now()-tt)
+	return True
 
 def update_flight(FlightData,CityName,db,url):
 	while True:
